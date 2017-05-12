@@ -57,4 +57,15 @@
 			<version>1.4.0.RELEASE</version><!--$NO-MVN-MAN-VER$-->
 		</dependency>
 	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>com.n26.challenge.spring.App</mainClass>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
